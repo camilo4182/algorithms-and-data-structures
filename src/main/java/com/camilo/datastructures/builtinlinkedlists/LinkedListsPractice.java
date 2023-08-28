@@ -1,4 +1,4 @@
-package com.camilo.datastructures.linkedlists;
+package com.camilo.datastructures.builtinlinkedlists;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -10,7 +10,6 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class User implements Comparable<User> {
-
     private String id;
     private String username;
     private String password;
