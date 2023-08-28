@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class OwnDynamicArrayTest {
+public class MyDynamicArrayTest {
 
-    private OwnDynamicArray<Integer> dynamicArray;
+    private MyDynamicArray<Integer> dynamicArray;
 
     @BeforeEach
     public void setup() {
-        dynamicArray = new OwnDynamicArray<>();
+        dynamicArray = new MyDynamicArray<>();
     }
 
     @Test

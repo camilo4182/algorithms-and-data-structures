@@ -1,15 +1,16 @@
 package com.camilo.datastructures.arrays;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 @SuppressWarnings("unchecked")
-public class OwnDynamicArray<E> implements Array<E> {
+public class MyDynamicArray<E> implements Array<E> {
 
     private int capacity;
     private int size;
     private E[] array;
 
-    public OwnDynamicArray() {
+    public MyDynamicArray() {
         this.capacity = 5;
         this.size = 0;
         this.array = (E[]) new Object[capacity];
@@ -56,6 +57,11 @@ public class OwnDynamicArray<E> implements Array<E> {
     @Override
     public boolean isEmpty() {
         return size == 0;
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(array);
     }
 
     public int size() {
